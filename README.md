@@ -4,7 +4,7 @@ A document that teaches how to install youcompleteme in linux and mac systems
 \- 一个教如何在linux和mac系统上使用youcompleteme的文档 -
 
 大家在安装YouCompleteMe的时候或多或少遇到一些问题  
-大多是因为网络问题，YCM的thrid_party下载不下来，我将它们放在了自己的gitee仓库，方便下载 
+大多是因为网络问题，YCM的thrid_party下载不下来，我将它们放在了自己的gitee仓库，方便下载   
 下面教大家如何正确安装YCM 
 
 <br/>
@@ -18,7 +18,7 @@ sudo apt-get install clang
 sudo apt-get install python3  
 sudo apt-get install git  
 
-**用Vundle管理ycm**
+**用Vundle管理ycm**  
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim  
 
 **克隆ycm仓库**
@@ -29,7 +29,7 @@ git clone  https://gitee.com/ryanmoon/YouCompleteMe.git
 cd ~/.vim/bundle/YouCompleteMe/third_party  
 git clone https://gitee.com/ryanmoon/ycmd.git  
 
-**安装ycm**
+**安装ycm**  
 cd ~/.vim/bundle/YouCompleteMe  
 ./install.sh --clang-completer --system-libclang  
 如果遇到下载不下来的git链接，去gitee上面搜索并clone  

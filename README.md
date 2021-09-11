@@ -63,7 +63,7 @@ def Settings( **kwargs ):
         '-isystem',
         '/usr/include/',
         '-isystem',
-        './include',
+        '/usr/include/c++/9',
         ],
     }
 #根据自己的语言配：c/c++

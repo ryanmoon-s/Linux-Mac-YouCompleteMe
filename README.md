@@ -35,6 +35,7 @@ cd ~/.vim/bundle/YouCompleteMe
 遇到error，缺少组件就apt-get、yum安装  
 如果商店的cmake过旧，参考：https://blog.csdn.net/weixin_38883338/article/details/86378589  下载超过3.14的版本 手动编译cmake  
 如果遇到下载不下来的git链接，去gitee上面搜索并clone  
+./install.py
 
 **六、使Vundle管理ycm：**  
 vi ~/.vimrc  添加：

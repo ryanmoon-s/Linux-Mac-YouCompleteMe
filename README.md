@@ -31,7 +31,8 @@ git clone https://gitee.com/ryanmoon/ycmd.git
 
 **五、编译ycm**  
 cd ~/.vim/bundle/YouCompleteMe  
-./install.sh --clang-completer --system-libclang  
+./install.sh --clang-completer --system-libclang    
+遇到error，缺少组件就apt-get yum安装
 如果遇到下载不下来的git链接，去gitee上面搜索并clone  
 
 **六、使Vundle管理ycm：**  
